@@ -45,10 +45,10 @@ cars are welcome in the issues.
 In the MGU Store, add the source
 
 ```
-JustAnotherPU/mgu-apps:releases
+JustAnotherPU/mgu-apps
 ```
 
-(the `catalog` release of this repository), then install iDrive Monitor or wireproxy. You don't need to install
+and pick **Releases** (type only `owner/repo`: the Store refuses a `:releases` at the end; it is the `catalog` release of this repository), then install iDrive Monitor or wireproxy. You don't need to install
 Node.js 22 yourself: the Store installs it when an app needs it. The packages are prebuilt. The BMW SDK module is
 not in them: the head unit makes it from an app already on the car.
 
